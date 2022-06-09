@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".UploadImage">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="226dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/upload_pic" />
+
+            <Button
+                android:id="@+id/buttonSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Select Picture"
+                android:textColor="@color/orange"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="15dp"
+                android:text="ITEM NAME"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"/>
+
+            <EditText
+                android:id="@+id/ItemName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/input_design"
+                android:ems="10"
+                android:hint="Item Name..."
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginBottom="1dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                />
+
+            <EditText
+                android:id="@+id/descri"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/input_design"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Describe the item..."
+                android:inputType="textMultiLine"
+                android:minHeight="48dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PRICE"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginBottom="1dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/Price"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/input_design"
+                android:ems="10"
+                android:hint="Value..."
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DATE_POSTED"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginBottom="1dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/Date"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/input_design"
+                android:ems="10"
+                android:hint="Today's date..."
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:ems="10"
+                android:text="USERNAME"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/input_design"
+                android:ems="10"
+                android:hint="Enter Username ..."
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#757575"
+                android:padding="10dp"
+                />
+
+            <Button
+                android:id="@+id/buttonUpload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Upload Picture"
+                android:textColor="@color/orange"/>
+        </LinearLayout>
+</ScrollView>

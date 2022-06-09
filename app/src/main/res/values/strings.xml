@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">MobileMarket</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_view" translatable="false">Viewing</string>
+    <string name="title_upload_image" translatable="false">Selling</string>
+    <string name="title_signout" translatable="false">Sign Out</string>
+
+    <string-array name="categorie">
+        <item>Electronic</item>
+        <item>Clothing</item>
+        <item>Textbooks</item>
+        <item>Supplies</item>
+        <item>Other</item>
+    </string-array>
+</resources>
